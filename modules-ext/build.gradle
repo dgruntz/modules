@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+}
+
+repositories {
+	jcenter()
+}
+
+sourceCompatibility = 11
+targetCompatibility = 11
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+
+dependencies {
+	compile project(':modules-core')
+}

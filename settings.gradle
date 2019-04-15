@@ -1,0 +1,4 @@
+rootProject.name = 'modules'
+
+include 'modules-core'
+include 'modules-ext'
